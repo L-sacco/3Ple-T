@@ -47,6 +47,7 @@ const checkScore = () => {
     if (cross) {
       gameIsOver = true;
       winnerMsg.value = "Player X has won!";
+      res = true;
       isItClickable(false);
       confetti();
     }
@@ -58,8 +59,8 @@ const checkScore = () => {
     if (circle) {
       gameIsOver = true;
       winnerMsg.value = "Player O has won!";
-      isItClickable(false);
       res = true;
+      isItClickable(false);
       confetti();
     }
   });

@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted } from "vue";
-import Square from "./components/square.vue";
+import Square from "./components/Square.vue";
 import ConfettiExplosion from "vue-confetti-explosion"; // Credits: https://github.com/valgeirb/vue-confetti-explosion/tree/main
 
 let dMode = ref("dark-mode");
